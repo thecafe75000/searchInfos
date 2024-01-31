@@ -1,6 +1,8 @@
 # React + Vite
 This is an exercise built with React and Vite
 
+Voici un exercice construit avec React et Vite
+
 ### Creating a Vite scaffold (in the Git Bash interface)
 
 - Download using `npm create vite@latest`

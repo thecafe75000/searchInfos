@@ -7,59 +7,59 @@ function List() {
       <ul className={Styles.outer}>
         <li>
           <img
-            src='https://avatars.githubusercontent.com/u/58739811?v=4'
+            src='https://avatars.githubusercontent.com/u/153526418?v=4'
             alt=''
           />
-          <p>User</p>
+          <p>user</p>
         </li>
         <li>
           <img
-            src='https://avatars.githubusercontent.com/u/58739811?v=4'
+            src='https://avatars.githubusercontent.com/u/153526418?v=4'
             alt=''
           />
-          <p>User</p>
+          <p>user</p>
         </li>
         <li>
           <img
-            src='https://avatars.githubusercontent.com/u/58739811?v=4'
+            src='https://avatars.githubusercontent.com/u/153526418?v=4'
             alt=''
           />
-          <p>User</p>
+          <p>user</p>
         </li>
         <li>
           <img
-            src='https://avatars.githubusercontent.com/u/58739811?v=4'
+            src='https://avatars.githubusercontent.com/u/153526418?v=4'
             alt=''
           />
-          <p>User</p>
+          <p>user</p>
         </li>
         <li>
           <img
-            src='https://avatars.githubusercontent.com/u/58739811?v=4'
+            src='https://avatars.githubusercontent.com/u/153526418?v=4'
             alt=''
           />
-          <p>User</p>
+          <p>user</p>
         </li>
         <li>
           <img
-            src='https://avatars.githubusercontent.com/u/58739811?v=4'
+            src='https://avatars.githubusercontent.com/u/153526418?v=4'
             alt=''
           />
-          <p>User</p>
+          <p>user</p>
         </li>
         <li>
           <img
-            src='https://avatars.githubusercontent.com/u/58739811?v=4'
+            src='https://avatars.githubusercontent.com/u/153526418?v=4'
             alt=''
           />
-          <p>User</p>
+          <p>user</p>
         </li>
         <li>
           <img
-            src='https://avatars.githubusercontent.com/u/58739811?v=4'
+            src='https://avatars.githubusercontent.com/u/153526418?v=4'
             alt=''
           />
-          <p>User</p>
+          <p>user</p>
         </li>
       </ul>
     </div>
