@@ -1,7 +1,7 @@
 # React + Vite
 This is an exercise built with React and Vite
 
-##### Creating a Vite scaffold (in the Git Bash interface)
+### Creating a Vite scaffold (in the Git Bash interface)
 
 - Download using `npm create vite@latest`
 - Enter the project name
@@ -12,11 +12,11 @@ This is an exercise built with React and Vite
 - Enter the project and run `npm run dev` to start the project
 
 
-##### About CSS
+### About CSS
 
 - CSS Module
 
-##### Création d'une structure Vite (dans l'interface Git Bash)
+### Création d'une structure Vite (dans l'interface Git Bash)
 
 - Téléchargez en utilisant `npm create vite@latest`
 - Entrez le nom du projet
@@ -26,6 +26,6 @@ This is an exercise built with React and Vite
 - Accédez au projet et exécutez `npm i` pour installer toutes les dépendances
 - Accédez au projet et exécutez `npm run dev` pour lancer le projet
 
-##### À propos de CSS
+### À propos de CSS
 
 - CSS Module
