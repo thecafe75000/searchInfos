@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Styles from './index.module.less'
 
 function Header(props) {
-  const { getUserList } = props
+  const { getUserList} = props
   const [searchKey, setSearchKey] = useState("")
 
   const changeInput = (e) => {
