@@ -1,7 +1,11 @@
 # React + Vite
-This is an exercise built with React and Vite
+This is an exercise built with React and Vite.
 
-Voici un exercice construit avec React et Vite
+Specifically, enter user information in the input box, click on search, and display the obtained data on the page.
+
+Voici un exercice construit avec React et Vite.
+
+Plus précisément, entrez les informations de l'utilisateur dans la zone de saisie, cliquez sur recherche, et affichez les données obtenues sur la page
 
 ### Creating a Vite scaffold (in the Git Bash interface)
 

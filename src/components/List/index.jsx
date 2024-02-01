@@ -1,66 +1,25 @@
 import React from 'react'
 import Styles from './index.module.less'
 
-function List() {
+function List(props) {
+  const {userList} = props
   return (
     <div>
       <ul className={Styles.outer}>
-        <li>
-          <img
-            src='https://avatars.githubusercontent.com/u/153526418?v=4'
-            alt=''
-          />
-          <p>user</p>
-        </li>
-        <li>
-          <img
-            src='https://avatars.githubusercontent.com/u/153526418?v=4'
-            alt=''
-          />
-          <p>user</p>
-        </li>
-        <li>
-          <img
-            src='https://avatars.githubusercontent.com/u/153526418?v=4'
-            alt=''
-          />
-          <p>user</p>
-        </li>
-        <li>
-          <img
-            src='https://avatars.githubusercontent.com/u/153526418?v=4'
-            alt=''
-          />
-          <p>user</p>
-        </li>
-        <li>
-          <img
-            src='https://avatars.githubusercontent.com/u/153526418?v=4'
-            alt=''
-          />
-          <p>user</p>
-        </li>
-        <li>
-          <img
-            src='https://avatars.githubusercontent.com/u/153526418?v=4'
-            alt=''
-          />
-          <p>user</p>
-        </li>
-        <li>
-          <img
-            src='https://avatars.githubusercontent.com/u/153526418?v=4'
-            alt=''
-          />
-          <p>user</p>
-        </li>
-        <li>
-          <img
-            src='https://avatars.githubusercontent.com/u/153526418?v=4'
-            alt=''
-          />
-          <p>user</p>
-        </li>
+        {
+          userList.map(item => {
+            return (
+              <li key={item.id}>
+                <img
+                  src={item.avatar_url}
+                  alt=''
+                />
+                <p>{ item.login }</p>
+              </li>
+            )
+          })
+        }
+        
       </ul>
     </div>
   )
