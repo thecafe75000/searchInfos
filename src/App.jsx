@@ -27,6 +27,7 @@ function App() {
 
     //? Send a http request
     const result = await reqGithubUserList(searchKey)
+    console.log(result)
     setUserList(result.items)
 
     //? At this point, the search is completed, and the 'searching' status is set to false
