@@ -2,13 +2,16 @@ import React from 'react'
 import Styles from './index.module.less'
 
 function List(props) {
-  const {userList, isSearch, searching} = props
+  const { userList, isSearch, searching, isError, errorMsg } = props
+  
   return (
     <div>
       <ul className={Styles.outer}>
         {
           isSearch ?
-          searching ? "Get started to search" : userList.map(item => {
+            searching ? 'You get started searching' :
+             isError? errorMsg :
+              userList.map(item => {
                 return (
                   <li key={item.id}>
                     <img src={item.avatar_url} alt='' />
@@ -25,3 +28,4 @@ function List(props) {
 }
 
 export default List
+
